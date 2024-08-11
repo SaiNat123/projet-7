@@ -11,10 +11,10 @@ COPY  .github/workflows/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copier le reste du code
-COPY . .
+COPY .github/app.py .
 
 # Exposer le port sur lequel l'API va fonctionner
 EXPOSE 5000
 
 # Commande pour démarrer l'API
-CMD ["python", ".github/app.py"]
+CMD ["python", "app.py"]
