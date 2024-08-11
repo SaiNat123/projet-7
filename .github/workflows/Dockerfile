@@ -5,13 +5,13 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copier le fichier des dépendances
-COPY  .github/workflows/requirements.txt .
+COPY  .github/workflows/requirements.txt /app/
 
 # Installer les dépendances
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copier le reste du code
-COPY .github/app.py .
+COPY .github/app.py /app/
 
 # Exposer le port sur lequel l'API va fonctionner
 EXPOSE 5000
