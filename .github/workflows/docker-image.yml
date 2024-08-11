@@ -27,3 +27,9 @@ jobs:
         file: .github/workflows/Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_HUB_USERNAME }}/app:latest
+
+    - name: Trigger Render deploy
+      env:
+         RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
+      run: |
+          curl -X POST $RENDER_DEPLOY_HOOK
