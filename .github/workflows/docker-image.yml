@@ -13,10 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Build and push Docker image
-      uses: docker/build-push-action@v3
-      with:
-        context: .
-        file: .github/workflows/Dockerfile
-        push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/app:latest
+    - name: Build Docker image
+      run: docker build -t nadat/app_project7:tagname:latest .
+    - name: Push Docker image to DockerHub
+      run: docker push nadat/app_project7:tagname:latest
