@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5000
 
 # Commande pour démarrer l'API
-CMD ["python", "app.py"]
+CMD ["python", ".github/app.py"]
