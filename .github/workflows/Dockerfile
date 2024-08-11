@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copier le fichier des dépendances
-COPY requirements.txt .
+COPY  .github/workflows/requirements.txt .
 
 # Installer les dépendances
 RUN pip install --no-cache-dir -r requirements.txt
