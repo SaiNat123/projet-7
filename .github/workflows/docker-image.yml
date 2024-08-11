@@ -14,4 +14,4 @@ jobs:
 
     steps:
     - name: Push Docker image to DockerHub
-      run: docker push docker push nadat/app_project7:my_tage
+      run: docker push nadat/app_project7:my_tage
