@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/saidi/Projet_7/mlruns/mlruns/633562807003973902/1e44c58fd95d4daa8785ece572bdf477/artifacts
+deleted_time: 1723491183014
+end_time: 1723472918752
+entry_point_name: ''
+experiment_id: '633562807003973902'
+lifecycle_stage: deleted
+run_id: 1e44c58fd95d4daa8785ece572bdf477
+run_name: RandomForest - SMOTE
+run_uuid: 1e44c58fd95d4daa8785ece572bdf477
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723470216609
+status: 3
+tags: []
+user_id: saidi

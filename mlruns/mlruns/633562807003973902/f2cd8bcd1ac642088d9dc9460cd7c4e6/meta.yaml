@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/saidi/Projet_7/mlruns/mlruns/633562807003973902/f2cd8bcd1ac642088d9dc9460cd7c4e6/artifacts
+deleted_time: 1723491183020
+end_time: 1723476910433
+entry_point_name: ''
+experiment_id: '633562807003973902'
+lifecycle_stage: deleted
+run_id: f2cd8bcd1ac642088d9dc9460cd7c4e6
+run_name: RandomForest - OverSampling
+run_uuid: f2cd8bcd1ac642088d9dc9460cd7c4e6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723473485774
+status: 3
+tags: []
+user_id: saidi

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/saidi/Projet_7/mlruns/mlruns/675957464471942933/99928c6646494f4591c0789b8fb44943/artifacts
+end_time: 1723479729612
+entry_point_name: ''
+experiment_id: '675957464471942933'
+lifecycle_stage: active
+run_id: 99928c6646494f4591c0789b8fb44943
+run_name: DecisionTreeClassifier - SMOTE
+run_uuid: 99928c6646494f4591c0789b8fb44943
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723479130497
+status: 3
+tags: []
+user_id: saidi

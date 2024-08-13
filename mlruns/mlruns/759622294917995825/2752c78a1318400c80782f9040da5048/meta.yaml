@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/saidi/Projet_7/mlruns/mlruns/759622294917995825/2752c78a1318400c80782f9040da5048/artifacts
+end_time: 1723478582467
+entry_point_name: ''
+experiment_id: '759622294917995825'
+lifecycle_stage: active
+run_id: 2752c78a1318400c80782f9040da5048
+run_name: LGBMClassifier - UnderSampling
+run_uuid: 2752c78a1318400c80782f9040da5048
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723478537663
+status: 3
+tags: []
+user_id: saidi

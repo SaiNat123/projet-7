@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/saidi/Projet_7/mlruns/mlruns/633562807003973902/564607a75e2a48d2bee3cd6522d17fb7/artifacts
+deleted_time: 1723491228624
+end_time: 1723465976600
+entry_point_name: ''
+experiment_id: '633562807003973902'
+lifecycle_stage: deleted
+run_id: 564607a75e2a48d2bee3cd6522d17fb7
+run_name: Dummy - None - test
+run_uuid: 564607a75e2a48d2bee3cd6522d17fb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723465964526
+status: 3
+tags: []
+user_id: saidi

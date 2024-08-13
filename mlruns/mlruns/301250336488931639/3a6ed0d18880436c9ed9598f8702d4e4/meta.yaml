@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/saidi/Projet_7/mlruns/mlruns/301250336488931639/3a6ed0d18880436c9ed9598f8702d4e4/artifacts
+end_time: 1723478757857
+entry_point_name: ''
+experiment_id: '301250336488931639'
+lifecycle_stage: active
+run_id: 3a6ed0d18880436c9ed9598f8702d4e4
+run_name: LogisticRegression - SMOTE
+run_uuid: 3a6ed0d18880436c9ed9598f8702d4e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723478641391
+status: 3
+tags: []
+user_id: saidi

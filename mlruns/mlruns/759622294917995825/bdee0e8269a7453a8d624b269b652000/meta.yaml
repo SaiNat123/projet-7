@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/saidi/Projet_7/mlruns/mlruns/759622294917995825/bdee0e8269a7453a8d624b269b652000/artifacts
+end_time: 1723477877213
+entry_point_name: ''
+experiment_id: '759622294917995825'
+lifecycle_stage: active
+run_id: bdee0e8269a7453a8d624b269b652000
+run_name: LGBMClassifier - None
+run_uuid: bdee0e8269a7453a8d624b269b652000
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723477700045
+status: 3
+tags: []
+user_id: saidi

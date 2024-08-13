@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/saidi/Projet_7/mlruns/mlruns/633562807003973902/a7f98ef4a5fe4da2952834fef4ea0fca/artifacts
+deleted_time: 1723491182997
+end_time: 1723477699941
+entry_point_name: ''
+experiment_id: '633562807003973902'
+lifecycle_stage: deleted
+run_id: a7f98ef4a5fe4da2952834fef4ea0fca
+run_name: RandomForest - UnderSampling
+run_uuid: a7f98ef4a5fe4da2952834fef4ea0fca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723477485382
+status: 3
+tags: []
+user_id: saidi

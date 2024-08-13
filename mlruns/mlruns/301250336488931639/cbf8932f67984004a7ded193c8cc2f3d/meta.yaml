@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/saidi/Projet_7/mlruns/mlruns/301250336488931639/cbf8932f67984004a7ded193c8cc2f3d/artifacts
+end_time: 1723478641361
+entry_point_name: ''
+experiment_id: '301250336488931639'
+lifecycle_stage: active
+run_id: cbf8932f67984004a7ded193c8cc2f3d
+run_name: LogisticRegression - None
+run_uuid: cbf8932f67984004a7ded193c8cc2f3d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723478582506
+status: 3
+tags: []
+user_id: saidi

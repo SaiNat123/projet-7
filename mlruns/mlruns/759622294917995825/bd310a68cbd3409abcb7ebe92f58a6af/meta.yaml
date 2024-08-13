@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/saidi/Projet_7/mlruns/mlruns/759622294917995825/bd310a68cbd3409abcb7ebe92f58a6af/artifacts
+end_time: 1723478537633
+entry_point_name: ''
+experiment_id: '759622294917995825'
+lifecycle_stage: active
+run_id: bd310a68cbd3409abcb7ebe92f58a6af
+run_name: LGBMClassifier - OverSampling
+run_uuid: bd310a68cbd3409abcb7ebe92f58a6af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723478276647
+status: 3
+tags: []
+user_id: saidi

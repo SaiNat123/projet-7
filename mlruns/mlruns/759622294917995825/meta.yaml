@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/saidi/Projet_7/mlruns/mlruns/759622294917995825
+creation_time: 1723477700020
+experiment_id: '759622294917995825'
+last_update_time: 1723477700020
+lifecycle_stage: active
+name: LGBMClassifier_Experiment

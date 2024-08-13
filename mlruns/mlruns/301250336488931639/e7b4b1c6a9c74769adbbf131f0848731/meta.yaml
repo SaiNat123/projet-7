@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/saidi/Projet_7/mlruns/mlruns/301250336488931639/e7b4b1c6a9c74769adbbf131f0848731/artifacts
+end_time: 1723478849525
+entry_point_name: ''
+experiment_id: '301250336488931639'
+lifecycle_stage: active
+run_id: e7b4b1c6a9c74769adbbf131f0848731
+run_name: LogisticRegression - OverSampling
+run_uuid: e7b4b1c6a9c74769adbbf131f0848731
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723478757885
+status: 3
+tags: []
+user_id: saidi

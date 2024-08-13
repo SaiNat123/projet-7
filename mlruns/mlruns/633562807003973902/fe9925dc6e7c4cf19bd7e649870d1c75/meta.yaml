@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/saidi/Projet_7/mlruns/mlruns/633562807003973902/fe9925dc6e7c4cf19bd7e649870d1c75/artifacts
+deleted_time: 1723491182994
+end_time: 1723467276614
+entry_point_name: ''
+experiment_id: '633562807003973902'
+lifecycle_stage: deleted
+run_id: fe9925dc6e7c4cf19bd7e649870d1c75
+run_name: 'RandomForest '
+run_uuid: fe9925dc6e7c4cf19bd7e649870d1c75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723466357395
+status: 3
+tags: []
+user_id: saidi
