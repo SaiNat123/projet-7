@@ -19,6 +19,9 @@ COPY ../Simulations/Data /app/
 # Copier le model
 COPY ../Simulations/Best_model /app/
 
+# Copier le scaler
+COPY ../Simulations/Scaler /app/
+
 # Exposer le port sur lequel l'API va fonctionner
 EXPOSE 5000
 
