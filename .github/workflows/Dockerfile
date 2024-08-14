@@ -1,6 +1,9 @@
 # Utiliser une image Python comme base
 FROM python:3.9-slim
 
+# Installer libgomp1
+RUN apt-get update && apt-get install -y libgomp1 && apt-get clean
+
 # Définir le répertoire de travail
 WORKDIR /app
 
