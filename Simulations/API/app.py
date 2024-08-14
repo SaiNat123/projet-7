@@ -10,10 +10,10 @@ app = Flask(__name__)
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Charger le modèle et le scaler
-model_path = os.path.join(current_directory, "Simulations", "Best_model", "model.pkl")
+model_path = os.path.join(current_directory, "Best_model", "model.pkl")
 model = joblib.load(model_path)
 
-scaler_path = os.path.join(current_directory, "Simulations", "Scaler", "StandardScaler.pkl")
+scaler_path = os.path.join(current_directory, "Scaler", "StandardScaler.pkl")
 scaler = joblib.load(scaler_path)
 
 @app.route("/predict", methods=['POST'])
@@ -27,7 +27,7 @@ def predict():
             return jsonify({'error': 'SK_ID_CURR is required'}), 400
 
         # Construire le chemin complet vers df_train.csv
-        csv_path = os.path.join(current_directory, "Simulations", "Data", "df_train.csv")
+        csv_path = os.path.join(current_directory, "Data", "df_train.csv")
         df = pd.read_csv(csv_path)
 
         # Préparer l'échantillon pour la prédiction
