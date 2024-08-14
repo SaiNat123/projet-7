@@ -17,7 +17,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY ../Simulations/API /app/
 
 # Copier data test
-COPY ../Simulations/Data /app/
+COPY ../Simulations/Data/df_train.csv /app/df_train.csv
 
 # Copier le model
 COPY ../Simulations/Best_model /app/
