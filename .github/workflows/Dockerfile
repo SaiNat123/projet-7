@@ -20,10 +20,10 @@ COPY ../Simulations/API /app/API
 COPY ../Simulations/Data/df_train.csv /app/df_train.csv
 
 # Copier le modèle
-COPY ../Simulations/Best_model /app/Best_model
+COPY ../Simulations/Best_model /app/
 
 # Copier le scaler
-COPY ../Simulations/Scaler /app/Scaler
+COPY ../Simulations/Scaler /app/
 
 # Copier le fichier de test unitaire
 COPY ../Tests_unitaires/test_api.py /app/test_api.py
