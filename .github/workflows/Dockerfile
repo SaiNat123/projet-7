@@ -25,6 +25,10 @@ COPY ../Simulations/Best_model /app/
 # Copier le scaler
 COPY ../Simulations/Scaler /app/
 
+# Copier le test
+COPY ../Tests_unitaires/test_api.py /app/
+
+
 # Exposer le port sur lequel l'API va fonctionner
 EXPOSE 5000
 
