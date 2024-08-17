@@ -1,5 +1,5 @@
 # Utiliser une image Python légère comme base
-FROM python:3.8
+FROM python:3.9-slim
 # Installer libgomp1 pour résoudre les dépendances de parallélisme
 RUN apt-get update && apt-get install -y libgomp1 && apt-get clean
 
