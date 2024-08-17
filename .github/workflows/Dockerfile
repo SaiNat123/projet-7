@@ -31,4 +31,4 @@ COPY ../Tests_unitaires/test_api.py /app/test_api.py
 EXPOSE 5000
 
 # Commande par défaut pour démarrer l'application
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "API.api:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "api:app"]
