@@ -14,7 +14,7 @@ COPY .github/workflows/requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copier le répertoire contenant l'API
-COPY ../Simulations/API /app/API
+COPY ../Simulations/API /app/
 
 # Copier les données de test
 COPY ../Simulations/Data/df_train.csv /app/df_train.csv
