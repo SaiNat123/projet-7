@@ -2,6 +2,8 @@
 FROM python:3.10-slim
 # Installer libgomp1 pour résoudre les dépendances de parallélisme
 RUN apt-get update && apt-get install -y libgomp1 && apt-get clean
+RUN pip3 install lightgbm==3.3.0
+RUN pip install --user stringsifter
 
 # Définir le répertoire de travail
 WORKDIR /app
