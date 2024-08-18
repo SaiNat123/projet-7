@@ -8,10 +8,10 @@ RUN apt-get update && apt-get install -y libgomp1 && apt-get clean
 WORKDIR /app
 
 # Copier le fichier des dépendances
-COPY .github/workflows/requirements.txt /app/
+COPY requirements.txt /app/
 
 # Installer les dépendances
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip3 install /app/requirements.txt
 RUN pip3 install lightgbm==3.3.0
 RUN pip install --user stringsifter
 
