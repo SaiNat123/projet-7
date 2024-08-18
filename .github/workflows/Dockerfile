@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y libgomp1 && apt-get clean
 WORKDIR /app
 
 # Copier le fichier des dépendances
-COPY requirements.txt /app/
+COPY .github/workflows/requirements.txt /app/
 
 # Installer les dépendances
 RUN pip3 install -r .github/workflows/requirements.txt
