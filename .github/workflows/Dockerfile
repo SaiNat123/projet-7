@@ -30,6 +30,9 @@ COPY ../Simulations/Scaler /app/
 # Copier le fichier de test unitaire
 COPY ../Tests_unitaires/test_api.py /app/test_api.py
 
+# Lancer les tests
+RUN python3 test_api.py
+
 # Exposer le port sur lequel l'API va fonctionner
 EXPOSE 5000
 
